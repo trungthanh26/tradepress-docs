@@ -1,0 +1,34 @@
+:root {
+  /* 🎨 Primary & Accent */
+  --tp-color-primary: #002c9b;
+  --tp-color-primary-hover: #0050c8;
+  --tp-color-accent: #35fac2;
+  --tp-color-accent-soft: #e0f9f6;
+  --tp-gradient-primary: linear-gradient(135deg, #002c9b, #0050c8);
+  --tp-gradient-accent: linear-gradient(135deg, #35fac2, #e0f9f6);
+
+  /* 🟢 Trạng thái */
+  --tp-color-success: #28a745;
+  --tp-color-warning: #ff9800;
+  --tp-color-error: #d32f2f;
+  --tp-color-info: #2196f3;
+  --tp-color-disabled: #aaaaaa;
+
+  /* 🔤 Text & Contrast */
+  --tp-color-text-main: #1a1a1a;
+  --tp-color-text-muted: #595959;
+  --tp-color-text-placeholder: #808080;
+  --tp-color-text-invert: #ffffff;
+
+  /* 📦 Background (cập nhật phân lớp theo logic Primary – Accent) */
+  --tp-color-bg-body: #ffffff;
+  --tp-color-bg-header: #fafcff; /* trắng xanh, gần Primary */
+  --tp-color-bg-section: #f3f6fa; /* nhẹ hơn body, tạo block content */
+  --tp-color-bg-footer: #e9edf3; /* đậm hơn section, tạo chiều sâu cuối */
+  --tp-color-bg-disabled: #e0e4eb; /* nền lạnh xám nhạt, hợp Accent */
+  --tp-color-bg-overlay: rgba(0, 0, 0, 0.5);
+
+  /* 🧱 Border & Shadow */
+  --tp-color-border: #dfe3ea;
+  --tp-color-shadow: rgba(0, 0, 0, 0.06);
+}

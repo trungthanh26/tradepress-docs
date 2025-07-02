@@ -1,0 +1,16 @@
+/* Import Google Font: Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  /* Font token cơ bản */
+  --tp-font-body: "Poppins", sans-serif;
+  --tp-font-heading: "Poppins", sans-serif;
+  --tp-font-mono: "Courier New", monospace;
+  --tp-font-size-base: 16px;
+  --tp-font-size-sm: 0.875rem;
+  --tp-font-size-lg: 1.125rem;
+  --tp-font-weight-normal: 400;
+  --tp-font-weight-medium: 500;
+  --tp-font-weight-bold: 700;
+  --tp-line-height-base: 1.6;
+}

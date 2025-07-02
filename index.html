@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <!-- Dark mode -->
+  <link rel="stylesheet" href="./color.token.dark.css" />
+
+  <!-- Font Poppins -->
+  <link rel="stylesheet" href="./font.tocken.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TradePress - Nền tảng kết nối Broker & Đối tác tài chính</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./color.tokens.css" />
+    <style>
+      :root {
+        --font-brand: "Bai Jamjuree", sans-serif;
+      }
+body {
+  font-family: var(--tp-font-body);
+  background-color: var(--tp-color-bg-body);
+  color: var(--tp-color-text-main);
+}
+header {
+  background-color: var(--tp-color-primary);
+  color: var(--tp-color-text-invert);
+}
+
+      nav {
+        background: #fff;
+        border-bottom: 1px solid #ddd;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      }
+      .nav-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo {
+        font-weight: bold;
+        font-size: 20px;
+        color: var(--tp-color-primary-hover);
+        padding: 15px 0;
+        white-space: nowrap;
+      }
+      .menu {
+        display: flex;
+        list-style: none;
+        gap: 30px;
+        flex-wrap: nowrap;
+      }
+      .menu li {
+        position: relative;
+        white-space: nowrap;
+      }
+      .menu li a {
+        text-decoration: none;
+        color: var(--tp-color-primary-hover);
+        font-weight: 600;
+        padding: 15px 10px;
+        display: block;
+        white-space: nowrap;
+      }
+      .menu li:hover > a {
+        color: #0050c8;
+      }
+      .submenu {
+        display: none;
+        position: absolute;
+        top: calc(100% + 5px);
+        left: 0;
+        background: white;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        padding: 10px 0;
+        min-width: 240px;
+        z-index: 999;
+      }
+      .submenu a {
+        display: block;
+        padding: 10px 20px;
+        color: var(--tp-color-primary-hover);
+        text-decoration: none;
+        font-weight: 500;
+        white-space: nowrap;
+      }
+      .submenu a:hover {
+        background-color: #f0f0f0;
+      }
+      .menu li:hover .submenu {
+        display: block;
+      }
+      .container {
+        max-width: 1100px;
+        margin: 40px auto;
+        padding: 0 20px;
+      }
+      .section {
+        background: white;
+        padding: 40px 30px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      }
+      .section h2 {
+        margin-top: 0;
+        color: #002c9b;
+      }
+      .highlight {
+        font-weight: bold;
+        color: var(--tp-color-primary-hover);
+      }
+      footer {
+        text-align: center;
+        padding: 40px 20px;
+        background-color: #f0f0f0;
+        color: var(--tp-color-primary-hover);
+
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>TradePress</h1>
+      <p>
+        Nền tảng chiến lược kết nối Broker quốc tế và hệ sinh thái IB, Team,
+        Leader tại thị trường mới nổi
+      </p>
+    </header>
+
+    <nav>
+      <div class="nav-container">
+        <div class="logo">TradePress</div>
+        <ul class="menu">
+          <li><a href="#">Trang chủ</a></li>
+          <li><a href="#">Tin tức & Phân tích</a></li>
+          <li>
+            <a href="#">Kiến thức tài chính</a>
+            <div class="submenu">
+              <a href="#">Sản phẩm tài chính</a>
+              <a href="#">Tư duy tài chính</a>
+              <a href="#">Sai lầm & Bài học</a>
+              <a href="#">Chiến lược giao dịch</a>
+              <a href="#">Thuật ngữ & Ngộ nhận</a>
+            </div>
+          </li>
+          <li><a href="#">Giải pháp cho Broker</a></li>
+          <li><a href="#">Dành cho IB & Leader</a></li>
+          <li><a href="#">Công cụ & Nền tảng</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="section">
+        <h2>Giới thiệu dự án</h2>
+        <p>
+          <span class="highlight">TradePress</span> là nền tảng nội dung & kết
+          nối chiến lược trong ngành tài chính, giúp các
+          <strong>Broker quốc tế</strong> mở rộng thị trường tại các quốc gia
+          mới nổi như Việt Nam thông qua giải pháp bản địa hóa toàn diện, đồng
+          thời hỗ trợ <strong>IB – Team – Leader</strong> kết nối với sàn uy
+          tín, xây dựng sự nghiệp chuyên nghiệp và bền vững.
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>Giá trị cốt lõi</h2>
+        <ul>
+          <li>
+            📌 Hai trụ cột: Hỗ trợ Broker mở rộng thị trường & Kết nối IB với
+            sàn uy tín
+          </li>
+          <li>📌 Nội dung có chiều sâu – phản biện – thực chiến</li>
+          <li>📌 Công cụ miễn phí giúp IB làm việc hiệu quả hơn</li>
+          <li>📌 Phong cách truyền thông minh bạch, có trách nhiệm</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>Bạn là ai?</h2>
+        <p>
+          👉 Nếu bạn là <strong>Broker</strong>: TradePress giúp bạn xâm nhập
+          thị trường nhanh chóng qua mạng lưới địa phương, chính sách bản địa
+          hoá và chiến lược marketing toàn diện.<br /><br />
+          👉 Nếu bạn là <strong>IB, Leader hoặc Team trading</strong>: Bạn có
+          thể kết nối với sàn uy tín, nhận công cụ marketing miễn phí, được hỗ
+          trợ đàm phán chính sách và đào tạo chuyên môn.
+        </p>
+      </div>
+      <!-- Chuyên mục: Tin tức & Phân tích -->
+      <div class="section">
+        <h2>Chuyên mục: Tin tức & Phân tích</h2>
+        <p>
+          Chuyên mục <strong>“Tin tức & Phân tích”</strong> tại TradePress là
+          nơi cập nhật nhanh chóng và chính xác các diễn biến mới nhất trên thị
+          trường tài chính quốc tế và khu vực. Đây là cầu nối giữa
+          <span class="highlight">thông tin thời sự</span> và
+          <span class="highlight">phân tích chuyên sâu</span>, giúp độc giả
+          không chỉ biết “chuyện gì đang xảy ra” mà còn “tại sao” và “nên hành
+          động như thế nào”.
+        </p>
+        <ul>
+          <li>
+            📈 Cập nhật tin tức nóng từ thị trường tài chính, chứng khoán,
+            forex, crypto, hàng hóa
+          </li>
+          <li>
+            🔍 Phân tích xu hướng dựa trên dữ liệu kinh tế, hành vi giá và tâm
+            lý thị trường
+          </li>
+          <li>
+            🧠 Nhận định từ chuyên gia với góc nhìn chiến lược, trung lập và
+            thực tế
+          </li>
+          <li>
+            🛠 Gợi ý hành động dành cho IB, Trader, hoặc đối tác chiến lược
+          </li>
+        </ul>
+        <p>
+          Với phong cách viết phản biện và không tô hồng, TradePress cam kết
+          mang lại nội dung <strong>thật – kịp thời – có chiều sâu</strong>,
+          phục vụ quá trình ra quyết định một cách hiệu quả và có kiểm chứng.
+        </p>
+      </div>
+
+      <!-- Kiến thức tài chính -->
+      <div class="section">
+        <h2>Chuyên mục: Kiến thức tài chính</h2>
+        <p>
+          Chuyên mục <strong>“Kiến thức tài chính”</strong> là nền tảng cốt lõi
+          trong hệ thống nội dung của TradePress. Đây không chỉ là nơi truyền
+          tải lý thuyết, mà còn là không gian
+          <span class="highlight">giải ngộ – phản biện – và thực hành</span>,
+          giúp người đọc hiểu sâu và áp dụng đúng trong hành trình tài chính cá
+          nhân và nghề nghiệp trading.
+        </p>
+        <ul>
+          <li>
+            📚 Phân tích các <strong>sản phẩm tài chính</strong> phổ biến như
+            Forex, cổ phiếu, crypto, hàng hóa, chỉ số...
+          </li>
+          <li>
+            🧠 Hệ thống hóa <strong>tư duy tài chính</strong> nền tảng, giúp
+            người mới tránh lệch lạc nhận thức
+          </li>
+          <li>
+            ❌ Mổ xẻ các <strong>sai lầm & ngộ nhận</strong> phổ biến khiến
+            người chơi tài chính thất bại
+          </li>
+          <li>
+            🎯 Cung cấp <strong>chiến lược giao dịch</strong> theo từng phong
+            cách: ngắn hạn, trung hạn, dài hạn
+          </li>
+          <li>
+            📖 Diễn giải <strong>thuật ngữ & bẫy tâm lý</strong> bằng ngôn ngữ
+            đơn giản, dễ hiểu và dễ áp dụng
+          </li>
+        </ul>
+        <p>
+          Tất cả bài viết đều được biên soạn dựa trên trải nghiệm thực chiến,
+          trải qua kiểm chứng và phản biện, giúp người đọc
+          <strong>tự bảo vệ mình</strong> trước một thế giới tài chính đầy biến
+          động và cạm bẫy.
+        </p>
+      </div>
+      <!-- Giải pháp cho Broker -->
+      <div class="section">
+        <h2>Chuyên mục: Giải pháp cho Broker</h2>
+        <p>
+          Chuyên mục <strong>“Giải pháp cho Broker”</strong> là nơi tổng hợp các
+          chiến lược, công cụ và phương pháp giúp
+          <span class="highlight">sàn môi giới quốc tế</span> thâm nhập và phát
+          triển bền vững tại các thị trường mới nổi – đặc biệt là Việt Nam.
+        </p>
+        <ul>
+          <li>
+            🌍 Phân tích đặc điểm thị trường địa phương: hành vi người dùng, xu
+            hướng giao dịch, tâm lý IB
+          </li>
+          <li>
+            📦 Gợi ý <strong>gói giải pháp bản địa hóa</strong>: ngôn ngữ, chăm
+            sóc khách hàng, sản phẩm phù hợp
+          </li>
+          <li>
+            🤝 Xây dựng <strong>mạng lưới IB & Leader</strong>: cách tiếp cận,
+            chính sách, hỗ trợ, truyền thông
+          </li>
+          <li>
+            📈 Đề xuất chiến lược
+            <strong>marketing – affiliate – branding</strong> hiệu quả cho thị
+            trường Việt
+          </li>
+          <li>
+            🔐 Cảnh báo rủi ro pháp lý, truyền thông tiêu cực, và các tình huống
+            cần kiểm soát khủng hoảng
+          </li>
+        </ul>
+        <p>
+          TradePress không chỉ đơn thuần là nền tảng nội dung, mà còn là
+          <strong>đối tác chiến lược</strong> đồng hành cùng các Broker trong
+          quá trình xâm nhập, xây dựng uy tín và tối ưu vận hành tại thị trường
+          bản địa.
+        </p>
+      </div>
+      <!-- Dành cho IB & Leader -->
+      <div class="section">
+        <h2>Chuyên mục: Dành cho IB & Leader</h2>
+        <p>
+          Chuyên mục <strong>“Dành cho IB & Leader”</strong> là nơi cung cấp các
+          kiến thức, công cụ và chiến lược giúp
+          <span class="highlight">người làm IB</span>,
+          <span class="highlight">đội nhóm giao dịch</span> và
+          <span class="highlight">Leader</span> xây dựng sự nghiệp một cách
+          chuyên nghiệp và bền vững trong ngành tài chính.
+        </p>
+        <ul>
+          <li>
+            🚀 Hướng dẫn xây dựng hệ thống khách hàng và quản lý đội nhóm hiệu
+            quả
+          </li>
+          <li>
+            🎯 Đề xuất chiến lược thương lượng chính sách, quản trị rủi ro và
+            phát triển quan hệ với sàn
+          </li>
+          <li>
+            🧰 Tặng kèm
+            <strong>bộ công cụ marketing, hỗ trợ tuyển dụng, đào tạo</strong>
+            miễn phí
+          </li>
+          <li>
+            📚 Nội dung đào tạo bài bản: từ kiến thức tài chính đến kỹ năng tổ
+            chức đội nhóm
+          </li>
+          <li>
+            🤝 Kết nối các IB giỏi – Team uy tín – sàn chất lượng để cùng phát
+            triển
+          </li>
+        </ul>
+        <p>
+          TradePress đóng vai trò như một
+          <strong>“trung tâm hỗ trợ chuyên môn & hệ sinh thái kết nối”</strong>
+          để những người làm nghề thật sự có thêm nền tảng, tài nguyên và sự tin
+          tưởng để đi đường dài.
+        </p>
+      </div>
+      <!-- Công cụ & Nền tảng -->
+      <div class="section">
+        <h2>Chuyên mục: Công cụ & Nền tảng</h2>
+        <p>
+          Chuyên mục <strong>“Công cụ & Nền tảng”</strong> tại TradePress được
+          phát triển nhằm cung cấp cho người dùng trong ngành tài chính những
+          tiện ích
+          <span class="highlight">thiết thực – dễ dùng – miễn phí</span>, phục
+          vụ cho công việc mỗi ngày.
+        </p>
+        <ul>
+          <li>
+            🧩 Bộ công cụ UTM Link, QR Code, rút gọn link, theo dõi chiến dịch
+          </li>
+          <li>
+            📈 Nền tảng quản lý IB, theo dõi hiệu suất, quản lý tệp khách hàng
+          </li>
+          <li>📋 Bộ checklist chiến dịch marketing dành riêng cho IB và sàn</li>
+          <li>
+            📦 Tài nguyên tải về: template bài viết, video, hình ảnh, hướng dẫn
+          </li>
+          <li>
+            🔧 Tích hợp dễ dàng vào quy trình làm việc cá nhân hoặc đội nhóm
+          </li>
+        </ul>
+        <p>
+          Tất cả công cụ tại TradePress đều hướng đến việc giúp
+          <strong
+            >IB làm việc chuyên nghiệp hơn, Leader quản trị hiệu quả hơn và
+            Broker phục vụ tốt hơn</strong
+          >. Chúng tôi tin rằng
+          <span class="highlight">năng suất bắt đầu từ nền tảng tốt</span>.
+        </p>
+      </div>
+
+      <!-- The and -->
+    </div>
+
+    <footer>
+      © 2025 TradePress. Được phát triển để phục vụ cộng đồng tài chính một cách
+      trung thực, minh bạch và hiệu quả.
+    </footer>
+  </body>
+</html>

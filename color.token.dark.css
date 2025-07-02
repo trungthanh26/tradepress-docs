@@ -1,0 +1,37 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* 🎨 Primary & Accent */
+    --tp-color-primary: #3b82f6;
+    --tp-color-primary-hover: #60a5fa;
+    --tp-color-accent: #00c9a7;
+    --tp-color-accent-soft: #154d4b;
+
+    --tp-gradient-primary: linear-gradient(135deg, #3b82f6, #60a5fa);
+    --tp-gradient-accent: linear-gradient(135deg, #00c9a7, #154d4b);
+
+    /* 🟢 Trạng thái */
+    --tp-color-success: #34d399;
+    --tp-color-warning: #fbbf24;
+    --tp-color-error: #f87171;
+    --tp-color-info: #60a5fa;
+    --tp-color-disabled: #555555;
+
+    /* 🔤 Text & Contrast */
+    --tp-color-text-main: #e5e5e5;
+    --tp-color-text-muted: #aaaaaa;
+    --tp-color-text-placeholder: #888888;
+    --tp-color-text-invert: #111111;
+
+    /* 📦 Background */
+    --tp-color-bg-body: #121212;
+    --tp-color-bg-header: #1b1f27;
+    --tp-color-bg-section: #20252e;
+    --tp-color-bg-footer: #181c23;
+    --tp-color-bg-disabled: #2a2d33;
+    --tp-color-bg-overlay: rgba(255, 255, 255, 0.08);
+
+    /* 🧱 Border & Shadow */
+    --tp-color-border: #2e323c;
+    --tp-color-shadow: rgba(0, 0, 0, 0.5);
+  }
+}
